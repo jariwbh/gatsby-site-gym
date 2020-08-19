@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 export class Aboutus extends Component {
     constructor() {
         super();
-        // window.scrollTo(0, 0);
+        //// window.scrollTo(0, 0);
     }
     render() {
         return (
