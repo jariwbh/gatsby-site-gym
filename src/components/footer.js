@@ -22,8 +22,8 @@ export class Footer extends Component {
                                     <img src={logo} alt="" />
                                 </div>
                                 <p className="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-                                <p className="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="m_10">(00) 222 666 444</span></p>
-                                <p className="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="m_10">info[at]mycompany.com</span></p>
+                                <p className="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="m_10">(+91) 222 666 444</span></p>
+                                <p className="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="m_10">info@mycompany.com</span></p>
                             </div>
                             <div className="col-md-4">
                                 <ul className="list">
@@ -50,7 +50,7 @@ export class Footer extends Component {
                 <div className="copyright">
                     <div className="container">
                         <div className="copy">
-                            <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+                            <p>© {new Date().getFullYear()} <a href="http://gym.membroz.com/" target="_blank"> gym membroz</a></p>
                         </div>
                         <div className="social">
                             <ul>

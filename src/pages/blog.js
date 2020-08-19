@@ -258,7 +258,7 @@ export class Blog extends Component {
                                     <li><a href="#">Logo</a></li>
                                     <div className="clear"></div>
                                 </ul>
-                                <ul className="archive-list">
+                                {/* <ul className="archive-list">
                                     <h4>Archive</h4>
                                     <li><a href="#">2014</a></li>
                                     <li><a href="#">2013</a></li>
@@ -273,7 +273,7 @@ export class Blog extends Component {
                                     <li><img src={p2} alt="" /></li>
                                     <li><img src={p1} alt="" /></li>
                                     <div className="clear"></div>
-                                </ul>
+                                </ul> */}
                             </div>
                             <div className="clear"></div>
                         </div>

@@ -17,39 +17,41 @@ export class Contactus extends Component {
                         <h1 className="m_11">Contact</h1>
                     </div>
                     <div className="border1"> </div>
-                    <div className="rwo contact">
+                    <div className="row rwo contact">
                         <div className="container">
-                            <div className="col-md-8 contact-top">
-                                <h3>Send us a message</h3>
-                                <p className="contact_msg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                                <form method="post" action="contact-post.html">
-                                    <div className="to">
-                                        <input type="text" className="text" placeholder="Name" />
-                                        <input type="text" className="text" placeholder="Email" style={{ marginLeft: '20px' }} />
-                                        <input type="text" className="text" placeholder="Subject" style={{ marginLeft: '20px' }} />
-                                    </div>
-                                    <div className="text">
-                                        <textarea placeholder="Message:" >Message:</textarea>
-                                    </div>
-                                    <div className="form-submit1">
-                                        <input name="submit" type="submit" id="submit" placeholder="Submit Your Message" /><br />
-                                        <p className="m_msg">Make sure you put a valid email</p>
-                                    </div>
-                                    <div className="clear"></div>
-                                </form>
-                            </div>
-                            <div className="col-md-4 contact-top right">
-                                <h3>contact info</h3>
-                                <p>diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</p>
-                                <ul className="contact_info">
-                                    <li><i className="mobile"> </i><span>+1-900-235-2456</span></li>
-                                    <li><i className="message"> </i><span className="msg">info(at)gym.com</span></li>
-                                </ul>
+                            <div className="row" style={{ paddingRight: '15px', paddingLeft: '15px' }}>
+                                <div className="col-md-8 contact-top">
+                                    <h3>Send us a message</h3>
+                                    <p className="contact_msg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                                    <form method="post" action="contact-post.html">
+                                        <div className="to">
+                                            <input type="text" className="text" placeholder="Name" />
+                                            <input type="text" className="text" placeholder="Email" style={{ marginLeft: '20px' }} />
+                                            <input type="text" className="text" placeholder="Subject" style={{ marginLeft: '20px' }} />
+                                        </div>
+                                        <div className="text">
+                                            <textarea placeholder="Message:" >Message:</textarea>
+                                        </div>
+                                        <div className="form-submit1">
+                                            <input name="submit" type="submit" id="submit" /><br />
+                                            <p className="m_msg">Make sure you put a valid email</p>
+                                        </div>
+                                        <div className="clear"></div>
+                                    </form>
+                                </div>
+                                <div className="col-md-4 contact-top_right">
+                                    <h3>contact info</h3>
+                                    <p>diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</p>
+                                    <ul className="contact_info">
+                                        <li><i className="mobile"> </i><span>(+91) 222 666 444</span></li>
+                                        <li><i className="message"> </i><span className="msg">info@mycompany.com</span></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="trainers_middle_bottom">
-                        <div className="container">
+                    <div className="container">
+                        <div className=" row trainers_middle_bottom">
                             <div className="col-md-4">
                                 <div className="contact_hours">
                                     <ul className="times_contact">
@@ -131,7 +133,7 @@ export class Contactus extends Component {
                                 </div>
                             </div>
                             <div className="clear"></div>
-                            <div className="contact_bottom">
+                            <div className="contact_bottom" style={{ marginLeft: 'auto' }}>
                                 <ul className="join_text">
                                     <h3>Why Join ? <span className="m_26"> eleifend option congue nihil</span></h3>
                                     <p>lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
@@ -144,8 +146,8 @@ export class Contactus extends Component {
                             <div className="clear"></div>
                         </div>
                     </div>
-                    <Gallery />
                 </div>
+                <Gallery />
                 <div className="footer-top">
                     <ul className="twitter_footer">
                         <li>

@@ -14,13 +14,13 @@ export class Classes extends Component {
     render() {
         return (
             <Layout>
-                <div class="main">
-                    <div class="about_banner_img"><img src={class_img} class="img-responsive" alt="" /></div>
-                    <div class="about_banner_wrap">
-                        <h1 class="m_11">Classes</h1>
+                <div className="main">
+                    <div className="about_banner_img"><img src={class_img} className="img-responsive" alt="" /></div>
+                    <div className="about_banner_wrap">
+                        <h1 className="m_11">Classes</h1>
                     </div>
-                    <div class="border1"> </div>
-                    <div class="container">
+                    <div className="border1"> </div>
+                    <div className="container">
                         <Classes_box />
                     </div>
                     <Class_and_price />

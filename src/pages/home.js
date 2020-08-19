@@ -29,9 +29,9 @@ export class Home extends Component {
                     </div>
                 </div>
                 <Header />
-                <div className="main">
+                <div className="main" style={{ backgroundColor: '#F3F3F3' }}>
                     <div className="container">
-                        <div className="row content-top">
+                        <div className="row content-top" style={{ margin: ' 0 auto' }}>
                             <div className="col-md-5">
                                 <img src={pic} className="img-responsive" alt="" />
                             </div>

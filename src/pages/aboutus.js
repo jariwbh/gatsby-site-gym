@@ -7,19 +7,19 @@ import Layout from '../components/Layout'
 export class Aboutus extends Component {
     constructor() {
         super();
-        //// window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
     }
     render() {
         return (
             <Layout>
-                <div className="main">
+                <div className="main" style={{ background: '#F3F3F3' }}>
                     <div className="about_banner_img"><img src={about_img} className="img-responsive" alt="" /></div>
                     <div className="about_banner_wrap">
                         <h1 className="m_11">About Us</h1>
                     </div>
                     <div className="about-wrapper">
                         <div className="container">
-                            <div className="row about-top">
+                            <div className="row about-top" style={{ margin: '0 auto' }}>
                                 <div className="col-md-5">
                                     <img src={about_img1} className="img-responsive" alt="" />
                                 </div>
@@ -206,11 +206,11 @@ export class Aboutus extends Component {
                         </div>
                     </div>
                     <Trainelogin />
-                    <div className="testimonial">
+                    <div className="testimonial" style={{ padding: '0' }}>
                         <div className="container">
                             <i className="quot"> </i>
                             <p>diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendreri</p>
-                            <p className="ceo">quis nostrud, <span className="ceo1">tation - ullamcorper</span></p>
+                            <p className="ceo">Who nostrud,  <span className="ceo1">NORMAL - ULLAMCORPER</span></p>
                         </div>
                     </div>
                     <Gallery />

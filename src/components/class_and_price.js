@@ -7,7 +7,7 @@ export class Class_and_price extends Component {
                 <div className="container">
                     <div className="row pricing">
                         <div className="col-md-8">
-                            <h3 className="m_2">All ClassclassNamees</h3>
+                            <h3 className="m_2">All Classes</h3>
                             <div className="classes">
                                 <div className="cardio_list">
                                     <div className="cardio_sublist">

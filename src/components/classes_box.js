@@ -137,7 +137,7 @@ export class Classes_box extends Component {
                         </div>
                         <div className="col-md-6">
                             <div className="class_left">
-                                <a href="single_class.html"><img src={c4} class="img-responsive" alt="" title="continue" /></a>
+                                <a href="single_class.html"><img src={c4} className="img-responsive" alt="" title="continue" /></a>
                             </div>
                             <div className="class_right1">
                                 <h3>Yoga</h3>

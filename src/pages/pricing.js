@@ -22,7 +22,7 @@ export class Pricing extends Component {
                         <div className="row1 price_plans">
                             <h3 className="m_2">Pricing and plans</h3>
                             <div className="price_plans_box">
-                                <div className="col-md-3" style={{ maxWidth: '25%', float: 'left' }}>
+                                <div className="col-md-3" style={{ float: 'left' }}>
                                     <ul className="price1">
                                         <h4>One day training</h4>
                                         <h3>Free</h3>
@@ -93,7 +93,7 @@ export class Pricing extends Component {
                                         </ul>
                                     </ul>
                                 </div>
-                                <div className="col-md-3" style={{ maxWidth: '25%', float: 'left' }}>
+                                <div className="col-md-3" style={{ float: 'left' }}>
                                     <ul className="price1">
                                         <h4>6 months membership</h4>
                                         <h2 className="m_25">$33<small>.33</small></h2>
@@ -108,7 +108,7 @@ export class Pricing extends Component {
                                         </ul>
                                     </ul>
                                 </div>
-                                <div className="col-md-3" style={{ maxWidth: '25%', float: 'left' }}>
+                                <div className="col-md-3" style={{ float: 'left' }}>
                                     <ul className="price2">
                                         <h4>3 months membership</h4>
                                         <h2 className="m_26">$59<small>.00</small></h2>
@@ -123,7 +123,7 @@ export class Pricing extends Component {
                                         </ul>
                                     </ul>
                                 </div>
-                                <div className="col-md-3" style={{ maxWidth: '25%', float: 'left' }}>
+                                <div className="col-md-3" style={{ float: 'left' }}>
                                     <ul className="price1">
                                         <h4>12 months membership</h4>
                                         <h2 className="m_25">$120<small>.00</small></h2>
@@ -145,7 +145,7 @@ export class Pricing extends Component {
                     <ul className="price_question">
                         <div className="container">
                             <li className="question_left"><h4>Have a question</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p></li>
-                            <li className="question_right">1-300-248-2456</li>
+                            <li className="question_right">(+91) 222 666 444</li>
                             <div className="clear"></div>
                         </div>
                     </ul>

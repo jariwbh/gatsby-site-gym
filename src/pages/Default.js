@@ -9,7 +9,7 @@ import Classes from './classes'
 import Blog from './blog'
 import Error from './404'
 import Demo from './demo'
-import Layout from '../components/Layout'
+//import Layout from '../components/Layout'
 
 export class Default extends Component {
     constructor() {

@@ -1,7 +1,26 @@
 import React, { Component } from 'react'
 import { pic4, pic5, pic, pic7, pic6, pic8 } from './images'
+import Carousel from 'react-multi-carousel'
+
 export class TrainersMiddle extends Component {
     render() {
+        const responsive = {
+            desktop: {
+                breakpoint: { max: 500, min: 100 },
+                items: 3,
+                slidesToSlide: 3 // optional, default to 1.
+            },
+            tablet: {
+                breakpoint: { max: 1024, min: 464 },
+                items: 2,
+                slidesToSlide: 2 // optional, default to 1.
+            },
+            mobile: {
+                breakpoint: { max: 464, min: 0 },
+                items: 1,
+                slidesToSlide: 1 // optional, default to 1.
+            }
+        };
         return (
             <React.Fragment>
                 <div className="row trainers_middle_bottom">
@@ -9,71 +28,74 @@ export class TrainersMiddle extends Component {
                         <h3 className="m_2">Our Trainers</h3>
                         <div className="course_demo">
                             <ul id="flexiselDemo3">
-                                <li><img src={pic4} /><div className="desc">
-                                    <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
-                                    <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
-                                    <div className="coursel_list">
-                                        <i className="heart1"> </i>
-                                        <i className="like"> </i>
+                                <Carousel responsive={responsive}>
+                                    <li><img src={pic4} /><div className="desc">
+                                        <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
+                                        <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
+                                        <div className="coursel_list">
+                                            <i className="heart1"> </i>
+                                            <i className="like"> </i>
+                                        </div>
+                                        <div className="coursel_list1">
+                                            <i className="twt"> </i>
+                                            <i className="fb"> </i>
+                                        </div>
+                                        <div className="clear"></div>
                                     </div>
-                                    <div className="coursel_list1">
-                                        <i className="twt"> </i>
-                                        <i className="fb"> </i>
-                                    </div>
-                                    <div className="clear"></div>
-                                </div></li>
-                                <li><img src={pic5} /><div className="desc">
-                                    <h3>Lorem Ipsum<br /><span className="m_text">Kik Boxing</span></h3>
-                                    <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
-                                    <div className="coursel_list">
-                                        <i className="heart2"> </i>
-                                        <i className="like1"> </i>
-                                    </div>
-                                    <div className="coursel_list1">
-                                        <i className="twt"> </i>
-                                        <i className="fb"> </i>
-                                    </div>
-                                    <div className="clear"></div>
-                                </div></li>
-                                <li><img src={pic4} /><div className="desc">
-                                    <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
-                                    <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
-                                    <div className="coursel_list">
-                                        <i className="heart2"> </i>
-                                        <i className="like1"> </i>
-                                    </div>
-                                    <div className="coursel_list1">
-                                        <i className="twt"> </i>
-                                        <i className="fb"> </i>
-                                    </div>
-                                    <div className="clear"></div>
-                                </div></li>
-                                <li><img src={pic5} /><div className="desc">
-                                    <h3>Lorem Ipsum<br /><span className="m_text">Kik Boxing</span></h3>
-                                    <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
-                                    <div className="coursel_list">
-                                        <i className="heart2"> </i>
-                                        <i className="like1"> </i>
-                                    </div>
-                                    <div className="coursel_list1">
-                                        <i className="twt"> </i>
-                                        <i className="fb"> </i>
-                                    </div>
-                                    <div className="clear"></div>
-                                </div></li>
-                                <li><img src={pic4} /><div className="desc">
-                                    <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
-                                    <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
-                                    <div className="coursel_list">
-                                        <i className="heart2"> </i>
-                                        <i className="like1"> </i>
-                                    </div>
-                                    <div className="coursel_list1">
-                                        <i className="twt"> </i>
-                                        <i className="fb"> </i>
-                                    </div>
-                                    <div className="clear"></div>
-                                </div></li>
+                                    </li>
+                                    <li><img src={pic5} /><div className="desc">
+                                        <h3>Lorem Ipsum<br /><span className="m_text">Kik Boxing</span></h3>
+                                        <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
+                                        <div className="coursel_list">
+                                            <i className="heart2"> </i>
+                                            <i className="like1"> </i>
+                                        </div>
+                                        <div className="coursel_list1">
+                                            <i className="twt"> </i>
+                                            <i className="fb"> </i>
+                                        </div>
+                                        <div className="clear"></div>
+                                    </div></li>
+                                    <li><img src={pic4} /><div className="desc">
+                                        <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
+                                        <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
+                                        <div className="coursel_list">
+                                            <i className="heart2"> </i>
+                                            <i className="like1"> </i>
+                                        </div>
+                                        <div className="coursel_list1">
+                                            <i className="twt"> </i>
+                                            <i className="fb"> </i>
+                                        </div>
+                                        <div className="clear"></div>
+                                    </div></li>
+                                    <li><img src={pic5} /><div className="desc">
+                                        <h3>Lorem Ipsum<br /><span className="m_text">Kik Boxing</span></h3>
+                                        <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
+                                        <div className="coursel_list">
+                                            <i className="heart2"> </i>
+                                            <i className="like1"> </i>
+                                        </div>
+                                        <div className="coursel_list1">
+                                            <i className="twt"> </i>
+                                            <i className="fb"> </i>
+                                        </div>
+                                        <div className="clear"></div>
+                                    </div></li>
+                                    <li><img src={pic4} /><div className="desc">
+                                        <h3>Lorem Ipsum<br /><span className="m_text">Spinning</span></h3>
+                                        <p>Lorem ipsum dolor<br /> sit amet, consectetuer.</p>
+                                        <div className="coursel_list">
+                                            <i className="heart2"> </i>
+                                            <i className="like1"> </i>
+                                        </div>
+                                        <div className="coursel_list1">
+                                            <i className="twt"> </i>
+                                            <i className="fb"> </i>
+                                        </div>
+                                        <div className="clear"></div>
+                                    </div></li>
+                                </Carousel>
                             </ul>
                             {/* {
                                 $(window).load(function () {
